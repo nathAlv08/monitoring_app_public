@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCkSMQHIxDcNWy4nxeVSSJeQoBrEV1gJ5Q',
+    apiKey: 'REPLACE_WITH_YOURS',
     appId: '1:1007384718308:web:bcbdf3358b38d748c7f5f1',
     messagingSenderId: '1007384718308',
     projectId: 'taskmonitor-df458',
