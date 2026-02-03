@@ -1,0 +1,46 @@
+name: monitoring_app
+description: Aplikasi Monitoring Tugas Elite.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Firebase ---
+  firebase_core: 2.24.2
+  firebase_auth: 4.14.1  # Turunkan dari 4.16.0 ke 4.14.1 (Versi Stabil)
+  cloud_firestore: 4.14.0 # Sesuaikan juga biar jodoh
+  firebase_storage: 11.6.0
+  shared_preferences: ^2.2.2
+
+  # --- UI & Utilities ---
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  intl: ^0.19.0
+  image_picker: ^1.0.7
+  file_picker: ^8.0.0   # TAMBAH INI (Ambil Dokumen)
+  open_file: ^3.3.2
+
+  # Icons
+  cupertino_icons: ^1.0.2
+  http: ^1.2.0
+  flutter_local_notifications: ^17.0.0
+
+  local_auth: ^2.1.6      # Untuk Biometric/Sidik Jari
+  speech_to_text: ^7.0.0 # Untuk Voice Input
+  avatar_glow: ^2.0.2     # Untuk Animasi Mic
+  table_calendar: ^3.1.2  # Untuk Kalender
+  google_sign_in: ^6.1.6        # Untuk Login Google
+  flutter_secure_storage: ^9.0.0 # Untuk Simpan Password (Biometric)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
